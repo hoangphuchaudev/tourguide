@@ -155,9 +155,9 @@ function windowScroll() {
             document.body.scrollTop >= 50 ||
             document.documentElement.scrollTop >= 50
         ) {
-            navbar.classList.add("nav-sticky");
+            navbar.classList.remove("bg-white");
         } else {
-            navbar.classList.remove("nav-sticky");
+            navbar.classList.add("bg-white");
         }
     }
 }
