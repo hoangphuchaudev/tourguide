@@ -53,4 +53,20 @@
         max-width: none;
     }
 }
-
+.banner-tour-guider{
+    margin-top: 300px;
+}
+.child-banner-tour-guider{
+    z-index: 9;
+    position: absolute;
+    margin-top: -300px;
+}
+.top-50{
+    top: 50px;
+}
+.bg-sky-500{
+    background-color:#3eabd7;
+}
+.text-sky-600{
+    color: rgb(2 132 199);
+}
