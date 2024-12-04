@@ -24,6 +24,6 @@
 }
 
 .ct-bg-lightblue{
-    background-color: #b2dfff;
+    background: linear-gradient(to bottom, #DEEBFF, #EBFFEC);
     font-family: "Roboto", sans-serif !important;
 }
