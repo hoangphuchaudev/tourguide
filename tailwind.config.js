@@ -8,7 +8,8 @@ module.exports = {
         roboto: ['"Roboto"','sans-serif'],
       },
       colors:{
-        primary: '#169CFF'
+        primary: '#169CFF',
+        secondary: '#D0EBFF'
       },
       borderRadius:{
         btn: '12px'

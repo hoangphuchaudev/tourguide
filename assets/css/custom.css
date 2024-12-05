@@ -64,6 +64,7 @@
 }
 .custom-banner2{
     background: url("../../assets/images/bg/banner2.png") no-repeat center;
+    object-fit: cover;
 }
 .custom-footer{
     background: url("../../assets/images/bg/bg-footer.png") no-repeat center;
