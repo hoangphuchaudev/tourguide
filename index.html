@@ -24,15 +24,12 @@
         <!-- Main Css -->
         <link href="assets/libs/%40mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
         <link href="assets/css/tailwind.min.css" rel="stylesheet" type="text/css">
-<<<<<<< HEAD
-        <link href="assets/css/customfont.css" rel="stylesheet" type="text/css">
-=======
+        <link href="build/tailwind.css" rel="stylesheet" type="text/css">
         <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
->>>>>>> 24ddfd789a48c04793f313b11431e7b4efcf1e2c
 
     </head>
     
-    <body class="dark:bg-slate-900 ct-font-inter">
+    <body class="dark:bg-slate-900 ct-font-inter font-inter">
         <!-- Loader Start -->
         <!-- <div id="preloader">
             <div id="status">
@@ -45,44 +42,6 @@
             </div>
         </div> -->
         <!-- Loader End -->
-<<<<<<< HEAD
-        <!-- TAGLINE START-->
-        <div class="tagline bg-slate-900">
-            <div class="container relative">                
-                <div class="grid grid-cols-1">
-                    <div class="flex items-center justify-between">
-                        <ul class="list-none">
-                            <li class="inline-flex items-center">
-                                <i data-feather="clock" class="text-red-500 size-4"></i>
-                                <span class="ms-2 text-slate-300">Mon-Sat: 9am to 6pm</span>
-                            </li>
-                            <li class="inline-flex items-center ms-2 ">
-                                <i data-feather="map-pin" class="text-red-500 size-4"></i>
-                                <span class="ms-2 text-slate-300">Houston, USA 485</span>
-                            </li>
-                        </ul>
-
-                        <ul class="list-none">
-                            <li class="inline-flex items-center">
-                                <i data-feather="mail" class="text-red-500 size-4"></i>
-                                <a href="mailto:contact@example.com" class="ms-2 text-slate-300 hover:text-slate-200">contact@example.com</a>
-                            </li>
-                            <li class="inline-flex items-center ms-2">
-                                <ul class="list-none">
-                                    <li class="inline-flex mb-0"><a href="#!" class="text-slate-300 hover:text-red-500"><i data-feather="facebook" class="size-4 align-middle" title="facebook"></i></a></li>
-                                    <li class="inline-flex ms-2 mb-0"><a href="#!" class="text-slate-300 hover:text-red-500"><i data-feather="instagram" class="size-4 align-middle" title="instagram"></i></a></li>
-                                    <li class="inline-flex ms-2 mb-0"><a href="#!" class="text-slate-300 hover:text-red-500"><i data-feather="twitter" class="size-4 align-middle" title="twitter"></i></a></li>
-                                    <li class="inline-flex ms-2 mb-0"><a href="tel:+152534-468-854" class="text-slate-300 hover:text-red-500"><i data-feather="phone" class="size-4 align-middle" title="phone"></i></a></li>
-                                </ul><!--end icon-->
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!--end container-->
-        </div><!--end tagline-->
-        <!-- TAGLINE END-->
-=======
->>>>>>> 24ddfd789a48c04793f313b11431e7b4efcf1e2c
         <!-- Start Navbar -->
         <nav id="topnav" class="defaultscroll tagline-height nav-sticky bg-white">
             <div class="container custom-container relative">
@@ -223,8 +182,15 @@
                     <div class="lg:col-span-12 md:col-span-7 md:order-1 order-2">
                         
                         <h4 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-6xl mb-6 mt-5 text-center">Tìm Kiếm Hướng Dẫn Viên &amp;<br> Tour Du Lịch</h4>
-                        <div class="lg:col-span-12 md:col-span-7 md:order-1 order-2 custom-max-w-text-banner">
+                        <div class="pe-12 ps-12">
                         <p class="text-white/70 text-xl text-center">Tìm kiếm các tour du lịch hấp dẫn, các hướng dẫn viên uy tín và khám phá những địa điểm đẹp nhất. Chúng tôi cung cấp các tour du lịch trong và ngoài nước, phù hợp với mọi nhu cầu và sở thích của bạn.</p>
+                        </div>
+                        <div class="text-center subcribe-form mt-4 pt-2">
+                            <form class="relative mx-auto max-w-xl">
+                                <i data-feather="search" class="size-[18px] absolute top-[2px] end-[3px] h-[50px] start-3 text-white"></i>
+                                <input type="text" id="help" name="name" class="py-4 pe-40 ps-10 w-full h-[50px] outline-none text-black dark:text-white rounded-xl bg-white opacity-70 dark:bg-slate-900 border border-gray-100 dark:border-gray-700" placeholder="Nhập tên hướng dẫn viên...">
+                                <button type="submit" class="py-2 px-5 inline-block font-semibold tracking-wide align-middle duration-500 text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-primary text-white rounded-xl">Tìm kiếm</button>
+                            </form><!--end form-->
                         </div>
                     </div>
                 </div><!--end grid-->
@@ -236,49 +202,62 @@
             <div class="grid grid-cols-1">
                 <form class="p-6 bg-white dark:bg-slate-900 rounded-xl shadow dark:shadow-gray-700">
                     <div class="registration-form text-dark text-start">
-                        <div class="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-4">
+                        <div class="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-4">
                             <div>
-                                <label class="form-label font-medium text-slate-900 dark:text-white">Search:</label>
+                                <label class="form-label font-medium text-slate-900 dark:text-white">Địa điểm HDV có thể dẫn:</label>
                                 <div class="relative mt-2">
-                                    <i data-feather="search" class="size-[18px] absolute top-[10px] start-3"></i>
-                                    <input name="name" type="text" id="job-keyword" class="w-full py-2 px-3 ps-10 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Search">
-                                </div>
-                            </div>
-
-                            <div>
-                                <label class="form-label font-medium text-slate-900 dark:text-white">Select Your Date:</label>
-                                <div class="relative mt-2">
-                                    <i data-feather="calendar" class="size-[18px] absolute top-[10px] start-3"></i>
-                                    <input name="name" type="text" id="job-keyword" class="w-full py-2 px-3 ps-10 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none border border-gray-100 dark:border-gray-800 focus:ring-0 start" placeholder="Select Your Date">
-                                </div>
-                            </div>
-
-                            <div>
-                                <label class="form-label font-medium text-slate-900 dark:text-white">Select Your Date:</label>
-                                <div class="relative mt-2">
-                                    <i data-feather="calendar" class="size-[18px] absolute top-[10px] start-3"></i>
-                                    <input name="name" type="text" id="job-keyword" class="w-full py-2 px-3 ps-10 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none border border-gray-100 dark:border-gray-800 focus:ring-0 end" placeholder="Select Your Date">
-                                </div>
-                            </div>
-
-                            <div>
-                                <label class="form-label font-medium text-slate-900 dark:text-white">No. of person:</label>
-                                <div class="relative mt-2">
-                                    <i data-feather="users" class="size-[18px] absolute top-[10px] start-3"></i>
                                     <select class="form-select w-full py-2 px-3 ps-10 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none border border-gray-100 dark:border-gray-800 focus:ring-0">
                                         <option disabled selected>No. of person</option>
                                         <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
+                                    </select>                                
                                 </div>
                             </div>
 
-                            <div class="lg:mt-[35px]">
-                                <input type="submit" id="search-buy" name="search" class="py-1 px-5 h-10 inline-block tracking-wide align-middle duration-500 text-base text-center bg-red-500 text-white rounded-md w-full cursor-pointer" value="Search">
+                            <div>
+                                <label class="form-label font-medium text-slate-900 dark:text-white">Ngôn ngữ:</label>
+                                <div class="relative mt-2">
+                                    <select class="form-select w-full py-2 px-3 ps-10 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none border border-gray-100 dark:border-gray-800 focus:ring-0">
+                                        <option disabled selected>No. of person</option>
+                                        <option>1</option>
+                                    </select>  
+                                </div>
                             </div>
+
+                            <div>
+                                <label class="form-label font-medium text-slate-900 dark:text-white">Kinh nghiệm:</label>
+                                <div class="relative mt-2">
+                                    <select class="form-select w-full py-2 px-3 ps-10 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none border border-gray-100 dark:border-gray-800 focus:ring-0">
+                                        <option disabled selected>No. of person</option>
+                                        <option>1</option>
+                                    </select>  
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="form-label font-medium text-slate-900 dark:text-white">Giá:</label>
+                                <div class="relative mt-2">
+                                    <select class="form-select w-full py-2 px-3 ps-10 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none border border-gray-100 dark:border-gray-800 focus:ring-0">
+                                        <option disabled selected>No. of person</option>
+                                        <option>1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="form-label font-medium text-slate-900 dark:text-white">Thẻ hướng dẫn viên:</label>
+                                <div class="relative mt-2">
+                                    <select class="form-select w-full py-2 px-3 ps-10 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none border border-gray-100 dark:border-gray-800 focus:ring-0">
+                                        <option disabled selected>No. of person</option>
+                                        <option>1</option>
+                                    </select>  
+                                </div>
+                            </div>
+                            <div>
+                                <label class="form-label font-medium text-slate-900 dark:text-white"><br></label>
+                                <div class="relative mt-2">
+                                    <i data-feather="search" class="size-[18px] absolute top-[10px] start-3 text-white"></i>
+                                    <input type="submit" id="search-buy" name="search" class="py-1 px-5 h-10 inline-block tracking-wide align-middle duration-500 text-base text-center bg-primary text-white rounded-btn w-full cursor-pointer" value="Tìm kiếm ngay">
+                                </div>
+                            </div>                        
                         </div><!--end grid-->
                     </div><!--end container-->
                 </form><!--end form-->
@@ -865,12 +844,12 @@
         </section><!--end section-->
         <!-- End -->
 
-        <!-- <div class="ct-bg-footer"> -->
+        <div class="ct-bg-footer-custom">
             <div class="">
-                <div class="container mx-auto relative">
+                <div class="container mx-auto relative banner-tour-guider">
                   <!-- Card -->
-                  <div class="ct-bg-lightblue shadow-lg rounded-lg flex flex-col md:flex-row items-center p-8 md:p-12 max-w-4xl mx-auto">
-                    <div class="grid grid-cols-12">
+                  <div class="ct-bg-lightblue-custom shadow-lg rounded-lg flex flex-col md:flex-row items-center p-8 md:p-12 max-w-4xl mx-auto child-banner-tour-guider">
+                    <div class="grid grid-cols-12" style="height: 371px;">
                         <!-- Hình ảnh -->
                     <div class="lg:col-span-3">
                         <img src="assets/images/client/user.png" alt="Person" class="rounded-lg m-6">
@@ -878,14 +857,12 @@
                       <div class="lg:col-span-8">
 
                       <!-- Nội dung -->
-                      <div class="text-center md:text-left mt-16 items-center">
-                        <h2 class="text-2xl font-bold text-blue-500 mb-4">Bạn Đang Là Một Hướng Dẫn Viên?</h2>
+                      <div class="text-left md:text-left mt-16 mx-5 items-left">
+                        <h2 class="text-4xl font-bold text-blue-500 mb-4 text-sky-600">Bạn Đang Là Một Hướng Dẫn Viên?</h2>
                         <p class="text-gray-600 mb-6">
                           Tạo ngay profile của mình để tiếp cận với khách hàng.
                         </p>
-                        <button class="bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:ct-bg-lightblue transition">
-                          Tạo ngay
-                        </button>
+                        <a href="#" class="py-2 px-5 inline-block tracking-wide align-middle duration-500 text-base text-center bg-sky-500 text-white rounded-md">Tạo ngay</a>
                       </div>
                       </div>
                     </div>
@@ -894,12 +871,12 @@
                 </div>
               </div>
               
-        <!-- </div> -->
+        </div>
         
 
         <!-- Footer Start -->
-        <footer class="footer ct-bg-footer relative text-white dark:text-gray-200">    
-            <div class="container relative">
+        <footer class="footer ct-bg-footer-custom relative text-white dark:text-gray-200">    
+            <div class="container relative top-50">
                 <div class="grid grid-cols-12">
                     <div class="col-span-12">
                         <div class="py-[60px] px-0">
@@ -1061,6 +1038,4 @@
         <script src="assets/js/app.js"></script>
         <!-- JAVASCRIPTS -->
     </body>
-
-<!-- Mirrored from shreethemes.in/travosy/layouts/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Dec 2024 02:17:29 GMT -->
 </html>

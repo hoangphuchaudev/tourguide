@@ -1,3 +1,36 @@
+.ct-font-inter-custom {
+    font-family: "Inter", sans-serif !important;
+}
+
+
+.ct-font-roboto {
+    font-family: "Roboto", sans-serif !important;
+}
+
+.ct-font-14-custom {
+    font-size: 14px !important;
+}
+
+.ct-font-36-custom {
+    font-size: 36px !important;
+}
+
+.ct-bg-footer-custom{
+    background-color: #169CFF;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.ct-bg-lightblue-custom{
+    background: linear-gradient(to bottom, #DEEBFF, #EBFFEC);
+    font-family: "Roboto", sans-serif !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Inter", sans-serif !important;
+    line-height: 1.5;
+}
+
+
 #topnav {
     position: fixed;
     inset-inline-start: 0px;
@@ -53,4 +86,24 @@
         max-width: none;
     }
 }
+
+.banner-tour-guider{
+    margin-top: 300px;
+}
+.child-banner-tour-guider{
+    z-index: 9;
+    position: absolute;
+    margin-top: -300px;
+}
+.top-50{
+    top: 50px;
+}
+.bg-sky-500{
+    background-color:#3eabd7;
+}
+.text-sky-600{
+    color: rgb(2 132 199);
+}
+
+
 
